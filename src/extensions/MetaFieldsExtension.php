@@ -2,7 +2,7 @@
 
 namespace gorriecoe\Meta\Extensions;
 
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Assets\Image;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\HeaderField;
@@ -17,7 +17,7 @@ use SilverStripe\Core\Config\Config;
  *
  * @package silverstripe-meta
  */
-class MetaFieldsExtension extends DataExtension
+class MetaFieldsExtension extends Extension
 {
     /**
      * Database fields

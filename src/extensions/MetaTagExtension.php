@@ -2,7 +2,7 @@
 
 namespace gorriecoe\Meta\Extensions;
 
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Control\ContentNegotiator;
 use SilverStripe\Control\Director;
 use SilverStripe\Core\Convert;
@@ -12,7 +12,7 @@ use SilverStripe\Core\Convert;
  *
  * @package silverstripe-meta
  */
-class MetaTagExtension extends DataExtension
+class MetaTagExtension extends Extension
 {
     /**
      * @var array

@@ -2,7 +2,7 @@
 
 namespace gorriecoe\Meta\Extensions;
 
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Security\Member;
 
 /**
@@ -10,7 +10,7 @@ use SilverStripe\Security\Member;
  *
  * @package silverstripe-meta
  */
-class MetaSiteTreeExtension extends DataExtension
+class MetaSiteTreeExtension extends Extension
 {
     /**
      * Ensure public URLs are re-scraped by Facebook after publishing.
